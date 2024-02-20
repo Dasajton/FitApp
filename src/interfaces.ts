@@ -31,3 +31,9 @@ export interface IWorkoutPerDay {
 export interface IExercisePerDay extends IExerciseData {
   sets: number;
 }
+
+// Interface for UserInput Data at Workout Creation
+
+export interface IWorkoutInputProps {
+  onContinue: (workoutName: string, workoutDays: number) => void;
+}

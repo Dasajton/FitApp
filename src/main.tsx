@@ -1,5 +1,6 @@
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { AppProvider } from "./AppContext";
 import { App } from "./App";
 import { Home, Workout, Profile, NotFound } from "./pages";
 import "./index.scss";
@@ -18,5 +19,7 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <RouterProvider router={router} />
+  <AppProvider>
+    <RouterProvider router={router} />
+  </AppProvider>
 );
