@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h2 {
+    @apply text-2xl font-bold py-2;
+  }
+}
+
+@layer components {
+  .box {
+    @apply border-x border-b rounded border-blue-500 w-full mx-auto bg-slate-900;
+  }
+
+  .tabs {
+    @apply flex justify-between;
+  }
+
+  .tab {
+    @apply cursor-pointer bg-slate-950 flex-1 p-2 text-center border border-blue-500 rounded-t relative;
+  }
+
+  .active-tab {
+    @apply border-0 bg-slate-900;
+  }
+
+  .contents {
+    @apply relative;
+  }
+
+  .content {
+    @apply hidden relative;
+  }
+}
+
+@layer utilities {
+  .active-content {
+    @apply block mx-2 transition-all duration-1000 ease-in-out;
+  }
+
+  .active-tab::after {
+    content: "";
+    border-top-width: 4px;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    border-top-color: #3b82f6;
+    border-top-style: solid;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: initial;
+    animation: new 0.5s;
+  }
+}
+
+// @keyframes new {
+//   from {
+//     top: 100%;
+//     left: 0;
+//     right: 0;
+//     background: #bfdbfe;
+//   }
+
+//   to {
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     border-top: 4px solid #3b82f6;
+//   }
+// }
