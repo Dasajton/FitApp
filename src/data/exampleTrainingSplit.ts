@@ -1,6 +1,6 @@
 const workoutPlan = {
   id: "workout-plan-1",
-  name: "My Opper-Lower Split Workout",
+  name: "My Upper-Lower Split Workout",
   createdAt: new Date(),
   days: 2,
   workoutPerDay: [
