@@ -1,4 +1,4 @@
-import { CreateWorkout } from "../components/CreateWorkout/CreateWorkout";
+import { CreateWorkout } from "../components";
 
 export const Home = () => {
   return (
