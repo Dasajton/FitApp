@@ -3,7 +3,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { AppProvider } from "./AppContext";
 import { App } from "./App";
 import { Home, Workout, Profile, NotFound } from "./pages";
-import "./index.scss";
+import "./assets/css/index.scss";
 
 const router = createBrowserRouter([
   {
