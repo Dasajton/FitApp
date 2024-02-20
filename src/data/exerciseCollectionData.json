@@ -1,0 +1,228 @@
+[
+  {
+    "id": "id-muscle-group-legs-1",
+    "name": "Legs",
+    "exercises": [
+      {
+        "id": "id-exercise-legs-squats",
+        "name": "Squats"
+      },
+      {
+        "id": "id-exercise-legs-lunges",
+        "name": "Lunges"
+      },
+      {
+        "id": "id-exercise-legs-leg-press",
+        "name": "Leg Press"
+      },
+      {
+        "id": "id-exercise-legs-bulgarian-split-squats",
+        "name": "Bulgarian Split Squats"
+      },
+      {
+        "id": "id-exercise-legs-leg-curls",
+        "name": "Leg Curls"
+      },
+      {
+        "id": "id-exercise-legs-leg-extensions",
+        "name": "Leg Extensions"
+      },
+      {
+        "id": "id-exercise-legs-calf-raises",
+        "name": "Calf Raises"
+      }
+    ]
+  },
+  {
+    "id": "id-muscle-group-chest-2",
+    "name": "Chest",
+    "exercises": [
+      {
+        "id": "id-exercise-chest-bench-press",
+        "name": "Bench Press"
+      },
+      {
+        "id": "id-exercise-chest-incline-bench-press",
+        "name": "Incline Bench Press"
+      },
+      {
+        "id": "id-exercise-chest-decline-bench-press",  
+        "name": "Decline Bench Press"
+      },
+      {
+        "id": "id-exercise-chest-dumbbell-press",
+        "name": "Dumbbell Flyes"
+      },
+      {
+        "id": "id-exercise-chest-chest-dips",
+        "name": "Chest Dips"
+      },
+      {
+        "id": "id-exercise-chest-cable-crossovers",
+        "name": "Cable Crossovers"
+      },
+      {
+        "id": "id-exercise-chest-push-ups",
+        "name": "Push Ups"
+      }
+    ]
+  },
+  {
+    "id": "id-muscle-group-back-3",
+    "name": "Back",
+    "exercises": [
+      {
+        "id": "id-exercise-back-deadlifts",
+        "name": "Deadlifts"
+      },
+      {
+        "id": "id-exercise-back-pull-ups",
+        "name": "Pull Ups"
+      },
+      {
+        "id": "id-exercise-back-bent-over-rows",
+        "name": "Bent Over Rows"
+      },
+      {
+        "id": "id-exercise-back-seated-rows",
+        "name": "Seated Rows"
+      },
+      {
+        "id": "id-exercise-back-lat-pulldowns",
+        "name": "Lat Pulldowns"
+      },
+      {
+        "id": "id-exercise-back-t-bar-rows",
+        "name": "T-Bar Rows"
+      },
+      {
+        "id": "id-exercise-back-face-pulls",
+        "name": "Face Pulls"
+      }
+    ]
+  },
+  {
+    "id": "id-muscle-group-shoulders-4",
+    "name": "Shoulders",
+    "exercises": [
+      {
+        "id": "id-exercise-shoulders-military-press",
+        "name": "Military Press"
+      },
+      {
+        "id": "id-exercise-shoulders-dumbbell-shoulder-press",
+        "name": "Dumbbell Shoulder Press"
+      },
+      {
+        "id": "id-exercise-shoulders-arnold-press",
+        "name": "Arnold Press"
+      },
+      {
+        "id": "id-exercise-shoulders-lateral-raises",
+        "name": "Lateral Raises"
+      },
+      {
+        "id": "id-exercise-shoulders-front-raises",
+        "name": "Front Raises"
+      },
+      {
+        "id": "id-exercise-shoulders-rear-delt-flyes",
+        "name": "Rear Delt Flyes"
+      },
+      {
+        "id": "id-exercise-shoulders-shrugs",
+        "name": "Shrugs"
+      }
+    ]
+  },
+  {
+    "id": "id-muscle-group-biceps-5",
+    "name": "Biceps",
+    "exercises": [
+      {
+        "id": "id-exercise-biceps-barbell-curls",
+        "name": "Barbell Curls"
+      },
+      {
+        "id": "id-exercise-biceps-dumbbell-curls",
+        "name": "Dumbbell Curls"
+      },
+      {
+        "id": "id-exercise-biceps-preacher-curls",
+        "name": "Preacher Curls"
+      },
+      {
+        "id": "id-exercise-biceps-hammer-curls",
+        "name": "Hammer Curls"
+      },
+      {
+        "id": "id-exercise-biceps-concentration-curls",
+        "name": "Concentration Curls"
+      },
+      {
+        "id": "id-exercise-biceps-cable-curls",
+        "name": "Cable Curls"
+      }
+    ]
+  },
+  {
+    "id": "id-muscle-group-triceps-6",
+    "name": "Triceps",
+    "exercises": [
+      {
+        "id": "id-exercise-triceps-skull-crushers",
+        "name": "Skull Crushers"
+      },
+      {
+        "id": "id-exercise-triceps-close-grip-bench-press",
+        "name": "Close Grip Bench Press"
+      },
+      {
+        "id": "id-exercise-triceps-tricep-dips",
+        "name": "Tricep Dips"
+      },
+      {
+        "id": "id-exercise-triceps-tricep-pushdowns",
+        "name": "Tricep Pushdowns"
+      },
+      {
+        "id": "id-exercise-triceps-overhead-tricep-extension",
+        "name": "Overhead Tricep Extension"
+      },
+      {
+        "id": "id-exercise-triceps-tricep-kickbacks",
+        "name": "Tricep Kickbacks"
+      }
+    ]
+  },
+  {
+    "id": "id-muscle-group-abs-7",
+    "name": "Abs",
+    "exercises": [
+      {
+        "id": "id-exercise-abs-crunches",
+        "name": "Crunches"
+      },
+      {
+        "id": "id-exercise-abs-leg-raises",
+        "name": "Leg Raises"
+      },
+      {
+        "id": "id-exercise-abs-planks",
+        "name": "Planks"
+      },
+      {
+        "id": "id-exercise-abs-russian-twists",
+        "name": "Russian Twists"
+      },
+      {
+        "id": "id-exercise-abs-cable-crunches",
+        "name": "Cable Crunches"
+      },
+      {
+        "id": "id-exercise-abs-hanging-leg-raises",
+        "name": "Hanging Leg Raises"
+      }
+    ]
+  }
+]
