@@ -7,7 +7,7 @@
     body {
         @apply bg-slate-950 text-slate-50;
     }
-    input {
+    input, select {
         @apply bg-slate-900 text-slate-50 border border-slate-500 p-2 rounded;
     }
 }
