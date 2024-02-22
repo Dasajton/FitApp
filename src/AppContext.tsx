@@ -19,7 +19,7 @@ export const AppContext = createContext<IAppContext>({} as IAppContext);
 
 export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
   const [workoutName, setWorkoutName] = useState("");
-  const [workoutDays, setWorkoutDays] = useState(0);
+  const [workoutDays, setWorkoutDays] = useState(3);
   const [inputComplete, setInputComplete] = useState(false);
   const [activeTab, setActiveTab] = useState(1);
 

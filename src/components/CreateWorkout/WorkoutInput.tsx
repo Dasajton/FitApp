@@ -44,7 +44,7 @@ export const WorkoutInput: React.FC<IWorkoutInputProps> = ({ onContinue }) => {
         <h3 className="text-xl font-medium mb-1">Days per Week:</h3>
         <input
           className="w-[15rem]"
-          type="number"
+          type="text"
           value={workoutDays}
           onChange={handleDaysInputChange}
         />
