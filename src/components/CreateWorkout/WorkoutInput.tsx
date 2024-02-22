@@ -23,6 +23,11 @@ export const WorkoutInput: React.FC<IWorkoutInputProps> = ({ onContinue }) => {
     if (!workoutName.trim() || workoutDays < 1) {
       alert("Please fill in the workout name and choose at least 1 day.");
       return;
+    } else if (!workoutName.trim() || workoutDays > 7) {
+      alert(
+        "It is not possible to train more than 7 days a week. Please choose a number between 1 and 7."
+      );
+      return;
     }
     alert("Workout Name and Days per Week are set! Continue to the next step.");
     onContinue(workoutName, workoutDays);
