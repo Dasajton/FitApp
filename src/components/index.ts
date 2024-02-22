@@ -1,7 +1,16 @@
 import { Navbar } from "./Navbar/Navbar";
-import { WorkoutInput } from "./CreateWorkout/WorkoutInput";
-import { WorkoutGenerator } from "./CreateWorkout/WorkoutGenerator";
-import { CreateWorkout } from "./CreateWorkout/CreateWorkout";
 import { Button } from "./Button/Button";
 
-export { Navbar, Button, WorkoutInput, WorkoutGenerator, CreateWorkout };
+import { WorkoutInput } from "./CreateWorkout/WorkoutInput";
+import { WorkoutDay } from "./CreateWorkout/WorkoutGenerator/WorkoutDay";
+import { WorkoutGenerator } from "./CreateWorkout/WorkoutGenerator/WorkoutGenerator";
+import { CreateWorkout } from "./CreateWorkout/CreateWorkout";
+
+export {
+  Navbar,
+  Button,
+  WorkoutInput,
+  WorkoutDay,
+  WorkoutGenerator,
+  CreateWorkout,
+};
