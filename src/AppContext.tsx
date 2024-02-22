@@ -4,9 +4,11 @@ interface IAppContext {
   workoutName: string;
   workoutDays: number;
   inputComplete: boolean;
+  activeTab: number;
   setWorkoutName: (name: string) => void;
   setWorkoutDays: (days: number) => void;
   setInputComplete: (complete: boolean) => void;
+  setActiveTab: (tab: number) => void;
 }
 
 interface IAppProvider {
@@ -19,6 +21,7 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
   const [workoutName, setWorkoutName] = useState("");
   const [workoutDays, setWorkoutDays] = useState(0);
   const [inputComplete, setInputComplete] = useState(false);
+  const [activeTab, setActiveTab] = useState(1);
 
   return (
     <AppContext.Provider
@@ -26,9 +29,11 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
         workoutName,
         workoutDays,
         inputComplete,
+        activeTab,
         setWorkoutName,
         setWorkoutDays,
         setInputComplete,
+        setActiveTab,
       }}
     >
       {children}
